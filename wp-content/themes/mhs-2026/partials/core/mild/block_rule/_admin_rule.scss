@@ -1,0 +1,14 @@
+.acf-field[data-name="content_blocks"],
+.spr-field[data-name="content_blocks"] {
+	.layout[data-layout="block_rule"],
+	.spr-layout[data-layout="block_rule"] {
+		.acf-fc-layout-handle,
+		.spr-fc-layout-handle {
+			.icon {
+				&:before {
+					background-image: url("partials/core/mild/block_rule/icon_rule.png") !important;
+				}
+			}
+		}
+	}
+}

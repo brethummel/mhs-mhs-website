@@ -1,0 +1,58 @@
+body {
+	.acf-tooltip.acf-fc-popup {
+		ul {
+			li {
+				a {
+					&[data-layout="block_accordion"] {
+						display: none;
+					}
+					&[data-layout="block_bio"] {
+						display: none;
+					}
+					&[data-layout="block_peoplegrid"] {
+						display: none;
+					}
+					&[data-layout="block_posts"] {
+						display: none;
+					}
+					&[data-layout="block_published"] {
+						display: none;
+					}
+					&[data-layout="block_rule"] {
+						display: none;
+					}
+					&[data-layout="block_share"] {
+						display: none;
+					}
+					&[data-layout="block_strip"] {
+						display: none;
+					}
+					&[data-layout="block_testimonials"] {
+						display: none;
+					}
+					&[data-layout="block_audioplayer"] {
+						display: none;
+					}
+					&[data-layout="block_gallery"] {
+						display: none;
+					}
+					&[data-layout="block_logogrid"] {
+						display: none;
+					}
+					&[data-layout="block_photostrip"] {
+						display: none;
+					}
+					&[data-layout="block_resources"] {
+						display: none;
+					}
+					&[data-layout="block_ticker"] {
+						display: none;
+					}
+					&[data-layout="block_map"] {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}

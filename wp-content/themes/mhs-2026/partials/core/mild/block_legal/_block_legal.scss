@@ -1,0 +1,23 @@
+.block-legal {
+    &.center {
+        .content-container {
+            margin: 0px auto;
+            @include media-breakpoint-only(xl) {
+                width: 70%;
+            }
+            @include media-breakpoint-only(lg) {
+                width: 80%;
+            }
+            @include media-breakpoint-only(md) {
+                width: 90%;
+            }
+            @include media-breakpoint-only(sm) {
+                width: 93%;
+            }
+        }
+    }
+    p {
+        font-size: 12px;
+        font-style: italic;
+    }
+}
